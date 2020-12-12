@@ -1,19 +1,14 @@
 Projeto para disciplina MATC99 - Segurança e Auditoria de Sistemas de Informação
 
-Este trabalho é uma implementação em linguagem JavaScript.
+Este é um projeto para disciplina MATC99 - Segurança e Auditoria de Sistemas de Informação da UFBA, ministrado pelo professor Maycon Leone. O projeto consite em implementar um sistema de login com autenticação em 2 etapas utilizando a linguagem JavaScript.
 
-Criar um sistema de login de usuários que permita autenticação em 2 etapas (senha, token). 
-O sistema deve tem uma base de dados simples com os campos usuário e senha.
-O sistema deve realizar a verificação da complexidade da senha.
-A senha deve ser criptografada com um algoritmo de escolha do grupo e essa escolha deve ser justificada. 
-Ao inserir a senha, uma nova tela deve ser mostrada com o pedido de inserir o token, que deve ser enviado por email ou telegram (escolha livre).
-O sistema deve ter três tipos de usuários: 
-    perfil administrativo que pode acessar e alterar todo o conteúdo do sistema; 
-    perfil comum que só pode acessar e alterar o conteúdo pertencente a ele; 
-    perfil especial onde somente o usuário pode acessar e alterar o seu conteúdo.  
+PASSO A PASSO PARA O FUNCIONAMENTO DO SISTEMA
 
-O aluno deve explicar sobre os princípios aprendidos em sala de aula (Confidencialidade, Integridade, Disponibilidade, Autenticidade, entre outras ) para explicar as técnicas de autenticação e os perfis de usuário.
+Na tela inicial o usuário deve inserir o e-mail e a senha já cadastrada pelo administrador e pressionar o botão de login.
+Ao pressionar o botão o usuário será redirecionado a página de autenticação, onde deve inserir o código que recebeu por e-mail, que consiste nos 4 primeiros caracteres da senha convertido na tabela ASCII.
+Caso o código esteja correto o usuário seguirá para tela de boas vindas, caso o código esteja incorreto o usuário receberá um alerta com a mensagem “Código Incorreto, Tente novamente mais tarde!” e retornará a página inicial.
 
-- Cada grupo deverá ter no máximo 5 pessoas. 
-- Cada apresentação (09/12/20) deverá ter no máximo 5 minutos (Defina os pontos importantes). Slides são opcionais.
-- Deverá ser entregue um relatório (09/12/20) mais completo sobre como foi realizada a implementação do sistema.
+USUÁRIOS/PERSONAS 
+- Administradores do sistema:  Todas as permissões e gestão do Sistema;
+- Funcionários Administrativos:  Tem permissões para criar o modificar documentos da base de dados geral
+- Funcionários Geral:  Tem permissões para visualizar os documentos da base de dados geral
