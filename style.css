@@ -8,6 +8,11 @@ body {
     display: flex;
     height: 100vh;
 }
+.screen img {
+    width: auto;
+    height: auto;
+    align-items: center;
+}
 .leftside {
     flex: 1;
     display: flex;
