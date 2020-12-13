@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>LOGIN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 4 - Grupo 5</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="imagens/financial_data.png" alt="" />
+        </div>
+        <div class="rightside">
+            <h1>Login</h1>
 
-	<script src="script.js"></script>
+            <form method="POST" action="autetic.html" class="b7validator">
+                <label>
+                    E-mail:<br/>
+                    <input type="text" name="email" data-rules="required|email" />
+                </label>
+                <label>
+                    Senha:<br/>
+                    <input type="password" name="password" data-rules="min=8" />
+                </label>
+                <label>
+                    <input type="submit" value="Login" />
+                </label>
+            </form>
+
+            <div>
+                Ainda não tem uma conta? <a href="">Faça seu Cadastro</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
