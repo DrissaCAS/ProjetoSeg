@@ -2,6 +2,9 @@ Projeto para disciplina MATC99 - Segurança e Auditoria de Sistemas de Informaç
 
 Este é um projeto para disciplina MATC99 - Segurança e Auditoria de Sistemas de Informação da UFBA, ministrado pelo professor Maycon Leone. O projeto consite em implementar um sistema de login com autenticação em 2 etapas utilizando a linguagem JavaScript.
 
+Grupo 05: Bernardo Sabino, Drissa da Cunha, Maria Neilde Goes e Yan Rodrigues
+Link para o relatório no Google Docs: https://docs.google.com/document/d/1oan8lK9l3kHZBhiqvcBQT-057eNspw-XWy3dHhvS3pA/edit?usp=sharing 
+
 PASSO A PASSO PARA O FUNCIONAMENTO DO SISTEMA
 
 Na tela inicial o usuário deve inserir o e-mail e a senha já cadastrada pelo administrador e pressionar o botão de login.
